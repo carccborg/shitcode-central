@@ -252,7 +252,7 @@
       - state: equipped-head-light-vox
         shader: unshaded
       head-reptilian:
-      - state: equipped-head-reptilian
+      - state: equipped-head-light-reptilian
         shader: unshaded
   - type: Clothing
     clothingVisuals:
