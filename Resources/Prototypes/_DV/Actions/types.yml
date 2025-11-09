@@ -3,7 +3,7 @@
   name: Open cheek storage
   description: Allows you to store items in your cheeks.
   components:
-  - type: Action
+  - type: InstantAction
     itemIconStyle: BigAction
     priority: -10
     icon: _DV/Interface/Actions/mouthStorageOpen.png
@@ -15,7 +15,7 @@
   name: Toggle sneak mode
   description: Sneak underneath tables.
   components:
-  - type: Action
+  - type: InstantAction
     itemIconStyle: BigAction
     useDelay: 3
     icon:
