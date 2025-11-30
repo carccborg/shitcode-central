@@ -11,7 +11,7 @@
       trash:
         - FoodPacketMRETrash
     - type: Sprite
-      sprite: _Starlight/Objects/Consumable/Food/thaslop.rsi
+      sprite: _HL/Objects/Consumable/Food/tha_slop.rsi
       layers:
         - state: thaslop
     - type: SolutionContainerManager

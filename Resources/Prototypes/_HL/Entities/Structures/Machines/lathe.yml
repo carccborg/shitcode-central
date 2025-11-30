@@ -62,7 +62,7 @@
   description: Produces tha slop using biomass. Can also convert plants to biomass for direct use.
   components:
     - type: Sprite
-      sprite: _Starlight/Structures/Machines/slop_machine.rsi
+      sprite: _HL/Structures/Machines/slop_machine.rsi
       snapCardinals: true
       layers:
         - state: icon
@@ -116,7 +116,7 @@
   description: Every maints blacksmith's dream, a forge for producing gear in bulk.
   components:
   - type: Sprite
-    sprite: _Starlight/Structures/Machines/tider_anvil.rsi
+    sprite: _HL/Structures/Machines/tider_anvil.rsi
     snapCardinals: true
     layers:
     - state: icon

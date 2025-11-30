@@ -129,14 +129,14 @@
 
 - type: latheRecipe
   id: SpeedloaderMagnumImprovTA
-  result: SpeedLoaderMagnumImprovised
+  result: SpeedLoader45MagnumImprovised
   completetime: 22
   materials:
     Steel: 450
 
 - type: latheRecipe
   id: MagazinePistolImprovTA
-  result: MagazinePistolImprovised
+  result: Magazine9x19mmImprovised
   completetime: 7
   materials:
     Steel: 350
@@ -150,7 +150,7 @@
 
 - type: latheRecipe
   id: MagazineSMGImprovTA
-  result: MagazinePistolSubMachineGunImprovised
+  result: Magazine9x19mmSubMachineGunImprovised
   completetime: 30
   materials:
     Steel: 600
@@ -204,3 +204,40 @@
   materials:
     Cloth: 600
     Plasteel: 1900
+
+- type: latheRecipe
+  id: MagazineBoxImprovPistolTA
+  result: MagazineBoxImprovisedPistol
+  completetime: 60
+  materials:
+    Steel: 2850
+    Cloth: 20
+    CrushedPhosphorus: 2500
+
+- type: latheRecipe
+  id: MagazineBoxImprovisedRifleTA
+  result: MagazineBoxImprovisedRifle
+  completetime: 60
+  materials:
+    Steel: 2850
+    Cloth: 20
+    CrushedPhosphorus: 5000
+
+- type: latheRecipe
+  id: MagazineBoxImprovisedMagnumTA
+  result: MagazineBoxImprovisedMagnum
+  completetime: 60
+  materials:
+    Steel: 2850
+    Cloth: 20
+    CrushedPhosphorus: 5000
+
+- type: latheRecipe
+  id: MagazineBoxImprovisedShotgunTA
+  result: MagazineBoxImprovisedShotgun
+  completetime: 60
+  materials:
+    Steel: 2850
+    Cloth: 20
+    CrushedPhosphorus: 5000
+

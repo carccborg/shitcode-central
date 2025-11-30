@@ -390,8 +390,6 @@
     lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.4
-  - type: Pierceable
-    level: Metal
   - type: Armor
     modifiers:
       coefficients:
