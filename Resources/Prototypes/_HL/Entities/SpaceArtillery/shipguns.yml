@@ -2,7 +2,7 @@
 
 - type: entity
   id: CVWeaponTurretReaper
-  parent: [ WeaponTurretReaper, Class2Expedition ]
+  parent: [ WeaponTurretReaper, BaseC2ContrabandUnredeemable ]
   name: CV-Curio-1089 tachyon lance "Reaper"
   description: A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-fracture tech capable of shattering the strongest of hulls within one or two blasts. now made for kids. 
   components:
@@ -19,7 +19,7 @@
     
 - type: entity
   id: CVWeaponTurretHarbringer
-  parent: [ WeaponTurretHarbringer, Class2Expedition ]
+  parent: [ WeaponTurretHarbringer, BaseC2ContrabandUnredeemable ]
   name: CVCurio-129 ion cannon "Harbringer"
   description: One of the most powerful EMP weapons in sector, its a sign of doom for its targets. Made for all ages!
   components:
@@ -36,7 +36,7 @@
 
 - type: entity
   id: CVWeaponTurretKargil
-  parent: [ WeaponTurretKargil, Class2Expedition ]
+  parent: [ WeaponTurretKargil, BaseC2ContrabandUnredeemable ]
   name: CVKargil 203mm cannon
   description: A (totally legal) cruiser artillery cannon that launches devastating 203mm shells for long-range ship-to-ship combat. Can be remotely activated or linked up to a GCS.
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: CVWeaponTurretType54
-  parent: [ WeaponTurretType54, Class2Expedition ]
+  parent: [ WeaponTurretType54, BaseC2ContrabandUnredeemable ]
   name: CVType-54C plasma autopulser
   description: A rapidly firing energy weapon, dealing a large amount of damage to its targets. Takes a long time to recharge. Feels like it could give a really mean tan. 
   components:
@@ -70,7 +70,7 @@
 
 - type: entity
   id: CVWeaponTurretTovek
-  parent: [ WeaponTurretTovek, Class2Expedition ]
+  parent: [ WeaponTurretTovek, BaseC2ContrabandUnredeemable ]
   name: CVADMX-23 TOVEK Hybrid EMP Pod
   description: A hybrid EMP missile pod by Aetherion Dynamics. Fires EMPHE warheads to disable and weaken enemy ships at long range. Can be remotely activated or linked to a GCS. Says "intended for oral use only". 
   components:
@@ -87,7 +87,7 @@
 
 - type: entity
   id: CVWeaponTurretSerpentMissile
-  parent: [ WeaponTurretSerpentMissile, Class2Expedition ]
+  parent: [ WeaponTurretSerpentMissile, BaseC2ContrabandUnredeemable ]
   name: CVSerpent torpedo launcher
   description: A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons. Additional lubrication required.
   components:
@@ -105,7 +105,7 @@
 #T2
 - type: entity
   id: CVWeaponTurretSunder
-  parent: [ WeaponTurretSunder, Class2Expedition ]
+  parent: [ WeaponTurretSunder, BaseC2ContrabandUnredeemable ]
   name: CVCurio-1007 proton cannon "Sunder"
   description: A potent proton cannon from before the Fracture, known for melting holes through both inorganic and organic matter with ease. Batteries sold separately 
   components:
@@ -122,7 +122,7 @@
 
 - type: entity
   id: CVWeaponTurretFang
-  parent: [ WeaponTurretFang, Class2Expedition ]
+  parent: [ WeaponTurretFang, BaseC2ContrabandUnredeemable ]
   name: CVFang heavy 100mm autocannon
   description: A heavy 100mm autocannon of syndicate design, created during the corporate war. Made for shattering the hulls of NT crusiers. Uses a self loading mechanism similar to the anaconda hangun. Now coming to a backyard near you! 
   components:
@@ -139,7 +139,7 @@
     
 - type: entity
   id: CVWeaponTurretType35
-  parent: [ WeaponTurretType35, Class2Expedition ]
+  parent: [ WeaponTurretType35, BaseC2ContrabandUnredeemable ]
   name: CVType-35 MARAUDER-type plasma cannon
   description: Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS. Hazardous if consumed.  
   components:
@@ -156,7 +156,7 @@
 
 - type: entity
   id: CVWeaponLaserTurretApollo
-  parent: [ WeaponLaserTurretApollo, Class2Expedition ]
+  parent: [ WeaponLaserTurretApollo, BaseC2ContrabandUnredeemable ]
   name: CVL-20 Apollo Heavy Laser Cannon
   description: One of the Pantheon Collective's top weapons, the Apollo is aptly named for its beams heating surfaces to beyond the temperature of nearby stars. Bottom weapons unavailable for comment.  
   components:
@@ -173,7 +173,7 @@
 
 - type: entity
   id: CVWeaponTurretRAC30
-  parent: [ WeaponTurretRAC30, Class2Expedition ]
+  parent: [ WeaponTurretRAC30, BaseC2ContrabandUnredeemable ]
   name: CVRAC-30 Draupnir Autocannon
   description: A more heavy duty rapid rife autocannon, firing a hail of rounds much like its namesake became a hail of spears. For outdoor use only.   
   components:
@@ -191,7 +191,7 @@
 #T1   
 - type: entity
   id: CVWeaponTurretAK570
-  parent: [ WeaponTurretAK570, Class2Expedition ]
+  parent: [ WeaponTurretAK570, BaseC2ContrabandUnredeemable ]
   name: CVAK570 90mm heavy autocannon
   description: A dual-barrel, heavy 90mm autocannon firing general-purpose APHE rounds, effective for sustained fire against medium targets. Can be remotely activated or linked up to a GCS. ribbed for your pleasure.  
   components:
@@ -208,7 +208,7 @@
     
 - type: entity
   id: CVWeaponTurretDravon
-  parent: [ WeaponTurretDravon, Class2Expedition ]
+  parent: [ WeaponTurretDravon, BaseC2ContrabandUnredeemable ]
   name: CVADBP-7 DRAVON 57mm Autocannon
   description: A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high fire rate but relatively low impact, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS. please consult a doctor if an erection lasts longer than 4 hours. 
   components:
@@ -225,7 +225,7 @@
     
 - type: entity
   id: CVWeaponLaserTurretFlayer
-  parent: [ WeaponLaserTurretFlayer, Class2Expedition ]
+  parent: [ WeaponLaserTurretFlayer, BaseC2ContrabandUnredeemable ]
   name: CVCurio-183 auto-coil "Flayer"
   description: A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high fire rate but relatively low impact, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS. please consult a doctor if an erection lasts longer than 4 hours. 
   components:
@@ -242,7 +242,7 @@
     
 - type: entity
   id: CVWeaponLaserTurretL1Phalanx
-  parent: [ WeaponLaserTurretL1Phalanx, Class2Expedition ]
+  parent: [ WeaponLaserTurretL1Phalanx, BaseC2ContrabandUnredeemable ]
   name: CVL-1 Phalanx
   description: A light laser emplactment designed by the Pantheon Collective, used to shred threats of all types. Now in new berry blast flavor. 
   components:
@@ -259,7 +259,7 @@
     
 - type: entity
   id: CVWeaponTurretL85Autocannon
-  parent: [ WeaponTurretL85Autocannon, Class2Expedition ]
+  parent: [ WeaponTurretL85Autocannon, BaseC2ContrabandUnredeemable ]
   name: CVL85 20mm autocannon
   description: A light 20mm ballistic autocannon designed for rapid fire and suppressing smaller targets at close range. Cheap, light, and can be remotely activated or linked up to a GCS. Results may vary. 
   components:
@@ -276,7 +276,7 @@
     
 - type: entity
   id: CVWeaponTurretM220
-  parent: [ WeaponTurretM220, Class2Expedition ]
+  parent: [ WeaponTurretM220, BaseC2ContrabandUnredeemable ]
   name: CVM220 RUBICON EMP launcher
   description: Launches EMP projectiles at ships, disabling systems with powerful electromagnetic pulses. Ideal for non-lethal engagements and can be remotely activated or linked to a GCS. shock your friends.
   components:
@@ -293,7 +293,7 @@
     
 - type: entity
   id: CVWeaponTurretVanyk
-  parent: [ WeaponTurretVanyk, Class2Expedition ]
+  parent: [ WeaponTurretVanyk, BaseC2ContrabandUnredeemable ]
   name: CVASM-302 pod
   description: An escort missile pod manufactured by Aetherion Dynamics. Launches guided missiles for basic ship-to-ship combat and area denial. Can be remotely activated or linked to a GCS.
   components:
