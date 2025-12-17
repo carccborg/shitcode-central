@@ -46,7 +46,6 @@ using Content.Shared.VendingMachines;
 using Robust.Shared.EntitySerialization.Systems; // Added for MapLoaderSystem
 using Robust.Shared.EntitySerialization;
 using Content.Shared.Access.Components; // AccessReaderComponent for access retention
-using Robust.Shared.Serialization.Manager; // For DataNodeParser
 using Robust.Shared.Map.Events; // For BeforeEntityReadEvent
 
 namespace Content.Server.Shuttles.Save

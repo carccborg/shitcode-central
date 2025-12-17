@@ -47,31 +47,22 @@ using Robust.Shared.Player;
 using Content.Shared.StatusEffect;
 using Content.Shared.Eye.Blinding.Components; // Frontier
 using Content.Shared.Eye.Blinding.Systems; // Frontier
-using Content.Shared.FixedPoint;
 using Content.Shared.Physics;
-using Content.Shared.Projectiles;
 using Robust.Shared.Map;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Dynamics; // Mono
-using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
-using Robust.Shared.Player;
 using Robust.Shared.Random; // Frontier
 using Content.Server.Chat.Systems; // Frontier
-using Robust.Shared.Physics.Systems;
 using Robust.Shared.Timing;
-using Robust.Shared.Physics.Components;
 using System.Linq;
 using System.Numerics;
-using Content.Shared.Physics;
-using Robust.Shared.Physics;
 
 namespace Content.Server.Projectiles;
 
 public sealed class ProjectileSystem : SharedProjectileSystem
 {
-    [Dependency] private readonly IAdminLogManager _adminLogger = default!;
     [Dependency] private readonly ColorFlashEffectSystem _color = default!;
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
     [Dependency] private readonly DestructibleSystem _destructibleSystem = default!;

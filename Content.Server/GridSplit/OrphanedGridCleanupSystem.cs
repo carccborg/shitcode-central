@@ -18,11 +18,6 @@ namespace Content.Server.GridSplit;
 /// </summary>
 public sealed class OrphanedGridCleanupSystem : EntitySystem
 {
-    [Dependency] private readonly IMapManager _mapManager = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
-    [Dependency] private readonly IEntityManager _entityManager = default!;
-    [Dependency] private readonly IConfigurationManager _cfg = default!;
-
     /// <summary>
     /// Minimum tile count for a grid to be considered worth keeping.
     /// Grids with fewer tiles than this will be deleted unless they have important entities.
@@ -38,7 +33,7 @@ public sealed class OrphanedGridCleanupSystem : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<GridSplitEvent>(OnGridSplit);
-        
+
         // TODO: Add CVars for these when this system is finalized
         // _cfg.OnValueChanged(CCVars.OrphanedGridCleanupEnabled, v => _enabled = v, true);
         // _cfg.OnValueChanged(CCVars.OrphanedGridMinimumTiles, v => _minimumTileCount = v, true);
@@ -91,11 +86,11 @@ public sealed class OrphanedGridCleanupSystem : EntitySystem
     private bool HasImportantEntities(EntityUid gridUid)
     {
         var xformQuery = GetEntityQuery<TransformComponent>();
-        
+
         // Get all entities on the grid
         var xform = xformQuery.GetComponent(gridUid);
         var children = xform.ChildEnumerator;
-        
+
         while (children.MoveNext(out var child))
         {
             // Check for players
