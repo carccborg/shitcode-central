@@ -32,6 +32,7 @@
     - Feroxi # Flooftier
     - Resomi
     - Protogen # Monolith
+    - Shadekin
     - Avali
     - Feroxi
     - Kitsune # DeltaV
@@ -114,6 +115,11 @@
   id: Protogen
   name: species-name-protogen
   text: "/ServerInfo/Guidebook/Mobs/Protogen.xml"
+
+- type: guideEntry
+  id: Shadekin
+  name: species-name-shadekin
+  text: "/ServerInfo/Guidebook/Mobs/Shadekin.xml"
 
 - type: guideEntry
   id: Skrell
