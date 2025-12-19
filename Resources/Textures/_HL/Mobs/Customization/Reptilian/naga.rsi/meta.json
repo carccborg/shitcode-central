@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": null,
-  "copyright": null,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from Bubberstation @ commit 0d3a319248ca4b46b55578cc5e73fc0184eccd65",
   "size": {
     "x": 64,
     "y": 32
