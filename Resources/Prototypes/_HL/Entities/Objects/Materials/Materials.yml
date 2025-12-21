@@ -612,7 +612,7 @@
     stackType: BulletTip
     count: 1
   - type: Sprite
-    sprite: Objects\Weapons\Guns\Ammunition\Casings\ammo_casing.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     state: tip
   - type: PhysicalComposition
     materialComposition:
@@ -631,7 +631,7 @@
     stackType: BulletCasing9x19mm
     count: 1
   - type: Sprite
-    sprite: Objects\Weapons\Guns\Ammunition\Casings\ammo_casing.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     state: base-spent
   - type: PhysicalComposition
     materialComposition:
@@ -650,7 +650,7 @@
     stackType: BulletFlechette
     count: 1
   - type: Sprite
-    sprite: Objects\Fun\Darts\dart_red.rsi
+    sprite: Objects/Fun/Darts/dart_red.rsi
     state: icon
   - type: PhysicalComposition
     materialComposition:
