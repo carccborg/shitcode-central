@@ -112,7 +112,7 @@
 # POI
 - type: entity
   id: ShieldGeneratorPOI
-  parent: ShieldGeneratorBase
+  parent: [ShieldGeneratorBase, BaseC3Contraband]
   name: FS-421 "Fortress" Outpost Shield Generator
   suffix: POI ONLY
   components:
@@ -259,7 +259,7 @@
 # High-End
 - type: entity
   id: ShieldGenerator
-  parent: ShieldGeneratorBase
+  parent: [ShieldGeneratorBase, BaseC3Contraband]
   name: MS-500 "Titan" Shield Generator
   suffix: ADS ONLY
   components:
@@ -273,7 +273,7 @@
 # Medium-End
 - type: entity
   id: ShieldGeneratorMedium
-  parent: ShieldGeneratorBase
+  parent: [ShieldGeneratorBase, BaseC2Contraband]
   name: MS-250 "Aegis" Shield Generator
   suffix: ADS ONLY, SCI VOUCHER SHIPS ONLY
   components:
@@ -358,7 +358,7 @@
 # Low-End
 - type: entity
   id: ShieldGeneratorSmall
-  parent: ShieldGeneratorBase
+  parent: [ShieldGeneratorBase, BaseC2Contraband]
   name: MS-100 "Sentinel" Shield Generator
   components:
   - type: ShipShieldEmitter
