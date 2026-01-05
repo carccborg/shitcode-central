@@ -1097,7 +1097,7 @@
     delay: 8 #Frontier
     fx: EffectRCDDeconstruct8 #Frontier
   - type: Reflect    # Frontier
-    reflectProb: 0.2 # Hardlight change, down to 0.2 from Frontier's 1
+    reflectProb: 0.9 # Hardlight change, down to 0.2 from Frontier's 1
   - type: Fixtures
     fixtures:
       fix1:
