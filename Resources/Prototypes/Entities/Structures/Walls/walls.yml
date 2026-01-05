@@ -1096,8 +1096,8 @@
     cost: 6 #Frontier
     delay: 8 #Frontier
     fx: EffectRCDDeconstruct8 #Frontier
-  - type: Reflect
-    reflectProb: 1
+#  - type: Reflect
+#    reflectProb: 1
   - type: Fixtures
     fixtures:
       fix1:
